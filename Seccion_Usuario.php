@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['Usuario'] ="Anthonny Calderón";     
+$_SESSION['Usuario'] ="Anthonny";     
 $usuario = $_POST["Usuario"];
 $contraseña = $_POST["Contraseña"];
 
