@@ -1,0 +1,18 @@
+
+[data-aos][data-aos][data-aos-duration='600'], body[data-aos-duration='600'] [data-aos] {
+    transition-duration: .6s;
+}
+
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translate(0);
+}
+
+[data-aos=fade-up] {
+    transform: translateY(100px);
+}
