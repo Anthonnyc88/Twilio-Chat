@@ -65,13 +65,12 @@ $canal = new Canal("canal","canales");
 <div class="container">  
    </div>
    <div class="table-responsive">
-    <table class="table table-bordered table-striped">
      <thead>
       <tr>
        <div align="right" style="margin-bottom:5px;">
        <li><a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><button type="button" name="add_button" id="add_button" class="btn btn-success btn-xs">Ingresar Canal</button></a>
 					<ul class="dropdown-menu">
-						<div style="width:200px 200px;">
+						<div style="width: 200px;">
 							<div class="panel panel-primary">
               <h5><a href="" class="scrollto">Nombre del Canal</h5>
                   <input type="text" class="form-control" id="nombre" name="nombre">
@@ -82,7 +81,7 @@ $canal = new Canal("canal","canales");
 					</ul>
         </li>
      </thead>
-    </table>
+    
    </div>
    <tbody>
     </tr>

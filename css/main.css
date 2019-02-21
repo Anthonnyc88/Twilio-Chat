@@ -13,7 +13,7 @@ blockquote cite:before {
 }
 
 blockquote cite a, blockquote cite a:visited {
-    color: #828282;
+    color:crimson;
     border: none;
 }
 
@@ -89,7 +89,7 @@ select {
     padding: 1.5rem 0;
     border: 0;
     outline: none;
-    color: #333333;
+    color:chocolate;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
     line-height: 3rem;
@@ -146,15 +146,15 @@ input[type="button"] {
     line-height: calc(5.4rem - .4rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
-    color: #000000;
+    color:cyan;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .2rem solid #c5c5c5;
+    background-color: #c20b0b;
+    border: .2rem solid #db1111;
 }
 
 .btn:hover,
@@ -169,7 +169,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: #b8b8b8;
     border-color: #b8b8b8;
-    color: #000000;
+    color:ivory;
     outline: 0;
 }
 
@@ -532,7 +532,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead--dark {
-    color: #000000;
+    color:lawngreen;
 }
 
 
@@ -600,7 +600,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: inline-block;
     height: 1px;
     width: 550px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: teal;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1036,7 +1036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .4;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
@@ -1049,7 +1049,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .6;
-    background-color: #000000;
+    background-color: #b11212;
 }
 
 .no-js .s-home {
@@ -2212,7 +2212,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: #151515;
+    background-color:teal;
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
@@ -2311,7 +2311,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: rgba(255, 255, 255, 0.6);
+    color:teal;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }

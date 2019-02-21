@@ -1,6 +1,6 @@
 
 body{
-    background:  #131111fa;
+    background: crimson;
 }
 sub {
     bottom: -0.25em;
@@ -72,7 +72,7 @@ button:-moz-focusring,
 }
 
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 1px solid #ce3636;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
