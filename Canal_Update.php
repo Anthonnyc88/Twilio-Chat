@@ -1,8 +1,8 @@
 <?php 
 require "Administrador.php";
-    $variableM = $_POST["nombre"];
-    $variable = $_POST["id"];
-    $clase = new Canal($variable,$variableM);
+    $canal = $_POST["nombre"];
+    $canales = $_POST["id"];
+    $clase = new Canal($canal,$canales);
     $clase -> Modificar_Canal();
     echo "<script>location.href='Administrador.php';</script>";
 ?>

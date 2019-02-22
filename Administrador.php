@@ -1,6 +1,6 @@
 <?php session_start();
 require "Canal.php";
-$canal = new Canal("canal","canales");
+$cat = new Canal("variable","variableM");
 ?> 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,10 +41,6 @@ $canal = new Canal("canal","canales");
   <header id="header" class="header header-hide">
     <div class="container">
 
-      <div id="logo" class="pull-left">
-         
-       
-      </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
@@ -53,49 +49,55 @@ $canal = new Canal("canal","canales");
         </ul>
     </div>
   </header>
-  <section id="get-started" class="padd-section text-center wow fadeInUp">
-    <div class="container">
-      <div class="section-title text-center">
+  <section id="hero" class="wow fadeIn">
+    <div class="hero-container">
       <h1>Administrador <?php echo $_SESSION['Usuario'];
       if( $_SESSION['Usuario']!='Anthonny'){
         header("Location:index.php");      
       } ?></h1>
-        <h2>Panel del Administrador</h2>               
+     
+      
+      <div class="btns">
+      </div>
+    </div>
+  </section>
+  <section id="get-started" class="padd-section text-center wow fadeInUp">
+    <div class="container">
+                
 <form action="Panel.php" method="post">
-<div class="container">  
-   </div>
    <div class="table-responsive">
+    <table class="table table-bordered table-striped">
      <thead>
       <tr>
        <div align="right" style="margin-bottom:5px;">
        <li><a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><button type="button" name="add_button" id="add_button" class="btn btn-success btn-xs">Ingresar Canal</button></a>
 					<ul class="dropdown-menu">
-						<div style="width: 200px;">
+						<div style="width:200px 200px;">
 							<div class="panel panel-primary">
-              <h5><a href="" class="scrollto">Nombre del Canal</h5>
+              <h5><a href="" class="scrollto"><span>Nombre</span> del</a><span> Canal</span></h5>
                   <input type="text" class="form-control" id="nombre" name="nombre">
                   <a href="" style="color:white; list-style:none;"></a><input  href="" type="submit" onclick="" class="btn btn-success" style="float:right;" id="Btnadd" value="Agregar">
+                  <h2>Canales</h2>
+                  <?php echo $cat->Ver_Canal();?>
                 </div>
 							</div>
 						</div>
 					</ul>
         </li>
      </thead>
-    
+    </table>
    </div>
    <tbody>
     </tr>
   </tbody>
    </form>
-   <h2>Canales</h2>
-   <?php echo $canal->Ver_Canal();?>
+  
       </div>
     </div>
       </div>
     </div>
   </section>
   </footer>
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

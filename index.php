@@ -18,12 +18,11 @@ $cat = new Personas("nombre","id","usuario","mensaje");
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
 
-  <!-- Bootstrap css -->
-  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   
-  <!-- Main Stylesheet File -->
+  
   <link href="css/style.css" rel="stylesheet">
   </head>
 
@@ -44,14 +43,10 @@ $cat = new Personas("nombre","id","usuario","mensaje");
 
   <div class="container">
   <div class="section-title text-center">
-  <h2>Canales Disponibles</h2>
-  <div class="table-responsive">
-  <table class="table table-bordered table-striped">
+  <h2>Conoce gente nueva en los chats</h2>
   
 
   <?php echo $cat->Canal_Usuario();?>
-  </table>
-  </div>
   </div>
   </div>
   </div>
